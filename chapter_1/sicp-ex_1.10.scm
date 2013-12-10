@@ -1,4 +1,6 @@
-;; Exercise 1.10: The following procedure computes a math- ematical
+;; Exercise 1.10:
+;; 
+;; The following procedure computes a math- ematical
 ;; function called Ackermann’s function.
 
 (define (A x y) (cond ((= y 0) 0)
@@ -33,7 +35,9 @@
 ;; by the procedures f, g, and h for positive integer val- ues of
 ;; n. For example, (k n) computes 5(n^2).
 
+
 ;; Solution
+;;
 ;; (A 1 10)
 ;; (A 0 (A 1 9))
 ;; (A 0 (A 0 (A 1 8)))
